@@ -1,3 +1,19 @@
+# Fork changes
+This is a fixed version of python script with optional simple GUI. Working on MacOS v26. \
+![GUI Screenshot](images/screenshot.png)
+
+## MacOS SIP Note
+99% you will not be able to use this script because frida will be blocked by SIP (system integrity protection).
+To fix this you have to completely disable SIP **OR** re-sign an app. For example, re-sign java:
+```sudo codesign -f -s - /path/to/java/binary``` 
+If you want to know more about signing and SIP issue, read [this article](https://malwarewerewolf.com/posts/inject-code-in-macos-processes-with-frida/).
+
+## I AM NOT A PYTHON DEVELOPER, **DO NOT ASK ME ABOUT FEATURES**, I MADE IT FOR ONE SIMPLE TASK ONLY.
+
+
+# ORIGINAL README:
+
+
 # tcp_killer
 
 Shuts down a TCP connection on Linux or macOS. Local and remote endpoint arguments can be copied from the output of 'netstat -lanW'.
