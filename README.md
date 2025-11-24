@@ -1,5 +1,5 @@
 # Fork changes
-This is a fixed version of python script with optional simple GUI. Working on MacOS v26. \
+This is a fixed version of python script with **optional** simple GUI (yes, you don't have to use GUI, CLI is working as usual). Working on MacOS v26. \
 ![GUI Screenshot](images/screenshot.png)
 
 ## MacOS SIP Note
